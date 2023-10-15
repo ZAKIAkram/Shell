@@ -6,5 +6,5 @@ This is a basic minimalist shell designed for educational purposes to understand
 
 - Basic command execution
 - Command-line argument parsing
-- Input and output redirection (limited)
+- Input and output redirection
 - Support for simple built-in commands
