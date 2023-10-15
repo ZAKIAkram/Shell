@@ -1,35 +1,10 @@
-ensimag-shell
-=============
+# Minimalist Shell
 
-Squelette pour le TP shell
+This is a basic minimalist shell designed for educational purposes to understand the fundamental concepts of a Unix shell.
 
-Tous les fichiers sont sous licence GPLv3+
+## Features
 
-Introduction
-----------
-
-Ces fichiers servent de base à un TP sur le shell de commande à la Unix.
-
-Spécificités de ce squelette:
-- plusieurs variantes (libre choix par les étudiants)
-- jeux de tests fournis aux étudiants
-- utilisation de Gnu Readline
-- Scheme (interpréteur Guile; Javascript possible)
-
-Compilation et lancement des tests
-----------
-
-cd ensimag-shell
-cd build
-cmake ..
-make
-make test
-
-
-
-Autres
-------
-
-Les premières versions imposaient la variante par un modulo sur le
-sha512 sur de la liste triée des logins des étudiants. Cela peut être
-réalisé complètement en CMake (>= 2.8).
+- Basic command execution
+- Command-line argument parsing
+- Input and output redirection (limited)
+- Support for simple built-in commands
